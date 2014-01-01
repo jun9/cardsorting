@@ -7,10 +7,11 @@ library(shiny)
   shinyUI(pageWithSidebar(
   headerPanel("CardSorting Analysis App"),
   sidebarPanel(
+    tags$a('Check out the source code at GitHub.', href='https://github.com/jun9/cardsorting'),
     tags$h5('Try it with your own cardsorting data now!'),
     tags$a('Download the example datasheet template here.', href='test.csv'),
     tags$a("Download Donna Spencer's example datasheet.", href='iasumit.example.std.csv'),    
-    tags$a("(Her original Card sort analysis spreadsheet here.)", href="http://rosenfeldmedia.com/blogs/card-sorting/card-sort-analysis-spreadsheet/"),
+    tags$a("(Reference)", href="http://rosenfeldmedia.com/blogs/card-sorting/card-sort-analysis-spreadsheet/"),
     tags$hr(),
     fileInput('file1', 'Upload CSV File in the above template format only. 
               Internet Explorer 9 and older browsers not supported.',
