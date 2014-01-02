@@ -10,6 +10,7 @@ library(shiny)
     tags$a('Check out the source code at GitHub.', href='https://github.com/jun9/cardsorting'),
     tags$h5('Try it with your own cardsorting data now!'),
     tags$a('Download the example datasheet template here.', href='test.csv'),
+    tags$br(),
     tags$a("Download Donna Spencer's example datasheet.", href='iasumit.example.std.csv'),    
     tags$a("(Reference)", href="http://rosenfeldmedia.com/blogs/card-sorting/card-sort-analysis-spreadsheet/"),
     tags$hr(),
