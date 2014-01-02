@@ -13,3 +13,5 @@ Come on! [EZSort is dead](http://maadmob.net/donna/blog/2005/ibms-usort-and-ezso
 2. Set the "cardsorting" folder as your working directory in R.
 3. library('shiny')
 4. runApp()
+
+Feedbacks and suggestions are welcome: @jun94 (twitter) or zhang.yong(at)gmail.com
